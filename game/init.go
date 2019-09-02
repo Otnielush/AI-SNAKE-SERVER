@@ -1,4 +1,4 @@
-package chat
+package game
 
 import (
 	"github.com/lonng/nano/component"
