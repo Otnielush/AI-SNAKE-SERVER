@@ -9,7 +9,7 @@ var (
 	// All services in master server
 	Services = &component.Components{}
 
-	mapService = newRoomService()
+	mapService = newMapService()
 )
 
 func init() {

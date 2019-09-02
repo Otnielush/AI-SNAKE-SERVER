@@ -16,13 +16,13 @@ type MapService struct {
 	group *nano.Group
 }
 
-func newRoomService() *MapService {
+func newMapService() *MapService {
 	return &MapService{
 		group: nano.NewGroup("all-users"),
 	}
 }
 
-func (rs *MapService) JoinRoom(s *session.Session, msg *protocol.JoinMapRequest) error {
+func (rs *MapService) JoinMap(s *session.Session, msg *protocol.JoinMapRequest) error {
 	if err := s.Bind(msg.MasterUid); err != nil {
 		return errors.Trace(err)
 	}

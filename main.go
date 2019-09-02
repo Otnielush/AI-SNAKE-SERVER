@@ -7,10 +7,10 @@ import (
 	"path/filepath"
 	"runtime"
 
-	"github.com/lonng/nano"
 	"SNAKE/game"
 	"SNAKE/gate"
 	"SNAKE/master"
+	"github.com/lonng/nano"
 	"github.com/lonng/nano/serialize/json"
 	"github.com/lonng/nano/session"
 	"github.com/pingcap/errors"
@@ -165,12 +165,12 @@ func runMap(args *cli.Context) error {
 	log.Println("Remote master server address", masterAddr)
 
 	// Register session closed callback
-	session.Lifetime.OnClosed(chat.OnSessionClosed)
+	session.Lifetime.OnClosed(game.OnSessionClosed)
 
 	// Startup Nano server with the specified listen address
 	nano.Listen(listen,
 		nano.WithAdvertiseAddr(masterAddr),
-		nano.WithComponents(chat.Services),
+		nano.WithComponents(game.Services),
 		nano.WithSerializer(json.NewSerializer()),
 		nano.WithDebugMode(),
 	)
