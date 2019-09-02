@@ -7,9 +7,9 @@ import (
 	"path/filepath"
 	"runtime"
 
-	"SNAKE/game"
-	"SNAKE/gate"
-	"SNAKE/master"
+	"AI-SNAKE-SERVER/game"
+	"AI-SNAKE-SERVER/gate"
+	"AI-SNAKE-SERVER/master"
 	"github.com/lonng/nano"
 	"github.com/lonng/nano/serialize/json"
 	"github.com/lonng/nano/session"
@@ -22,7 +22,7 @@ func main() {
 	app.Name = "AI-SNAKE"
 	app.Author = "Otniel&Levi"
 	app.Email = "wewant@moschiah.mow"
-	app.Description = "AI-SNAKE cluster"
+	app.Description = "AI-SNAKE-SERVER"
 	app.Commands = []cli.Command{
 		{
 			Name: "master",

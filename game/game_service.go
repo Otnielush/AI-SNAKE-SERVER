@@ -6,7 +6,7 @@ import (
 
 	"github.com/lonng/nano"
 	"github.com/lonng/nano/component"
-	"SNAKE/protocol"
+	"AI-SNAKE-SERVER/protocol"
 	"github.com/lonng/nano/session"
 	"github.com/pingcap/errors"
 )
