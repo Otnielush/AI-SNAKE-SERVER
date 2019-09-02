@@ -57,7 +57,7 @@ func main() {
 			Action: runGate,
 		},
 		{
-			Name: "map",
+			Name: "game",
 			Flags: []cli.Flag{
 				cli.StringFlag{
 					Name:  "master",
@@ -66,11 +66,11 @@ func main() {
 				},
 				cli.StringFlag{
 					Name:  "listen,l",
-					Usage: "Chat service listen address",
+					Usage: "Game service listen address",
 					Value: "",
 				},
 			},
-			Action: runMap,
+			Action: runGame,
 		},
 	}
 	log.SetFlags(log.LstdFlags | log.Lshortfile)
@@ -150,7 +150,7 @@ func runGate(args *cli.Context) error {
 	return nil
 }
 
-func runMap(args *cli.Context) error {
+func runGame(args *cli.Context) error {
 	listen := args.String("listen")
 	if listen == "" {
 		return errors.Errorf("map listen address cannot empty")
