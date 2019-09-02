@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="391904a9-016f-4b9f-8ea9-42592a2b495e" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/master/web/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/master/web/index.html" afterDir="false" />
-    </list>
+    <list default="true" id="391904a9-016f-4b9f-8ea9-42592a2b495e" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,7 +41,7 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/master/web/starx-wsclient.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-8352" />
+            <state relative-caret-position="-8150" />
           </provider>
         </entry>
       </file>
@@ -432,7 +429,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/master/web/starx-wsclient.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-8352" />
+        <state relative-caret-position="-8150" />
       </provider>
     </entry>
   </component>

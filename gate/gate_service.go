@@ -2,7 +2,7 @@ package gate
 
 import (
 	"github.com/lonng/nano/component"
-	"github.com/lonng/nano/examples/cluster/protocol"
+	"SNAKE/protocol"
 	"github.com/lonng/nano/session"
 	"github.com/pingcap/errors"
 )
